@@ -1,0 +1,4 @@
+{ "details": [{"name":"John", "age": 30, "marks":71 },
+            {"name":"Micheal", "age": 27, "marks":55},
+            {"name":"Tom", "age":23, "marks":82}]
+}

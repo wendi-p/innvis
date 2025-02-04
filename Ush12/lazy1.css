@@ -1,0 +1,4 @@
+h1{text-align:center;}
+div#status{position:fixed;font-size:24px;}
+div#wrap{margin:0px auto;}
+div.newData{height:2000px; background:#09F;margin: 10px 0px;}

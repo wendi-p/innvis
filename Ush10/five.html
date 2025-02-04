@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="five.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1 style="text-decoration:underline; text-align:center; color:red;">Login</h1>
+<form name="loginForm" id="login">
+<table width="395" padding="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="25" colspan="2" valign="top"><strong>Email Login </strong></td>
+</tr>
+<tr width:"106" height="40">
+<td>Email ID </td>
+<td><input type="text" name="email" onpaste="return false" value="" id="email" autocomplete="off" class="email"></input></td>
+</tr>
+<tr width="10" height="40">
+<td>Password</td>
+<td><input type="password" width="10" name="password" onpaste="return false" value="" id="password" autocomplete="off" class="password"></input></td>
+</tr>
+</table>
+<button type="button" id="login" onclick="emaillogin()">Login </button>
+<button type="button" id="cancel" onclick="emailcancel()">Cancel </button>
+</form>
+<script src="five.js"></script>
+</body>
+</html>

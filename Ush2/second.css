@@ -1,0 +1,23 @@
+table
+{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+}
+
+td, th
+{
+	border: 2px solid black;
+}
+tr:nth-child(even)
+{	/*background-color: #dddddd;*/
+	background-color: #82AB44;
+}
+tr:nth-child(odd)
+{	background-color: #dddddd;
+	/*background-color: #82AB44;*/
+}
+.one 
+{
+	text-align: center;
+}
